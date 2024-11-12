@@ -5,85 +5,65 @@ import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
-    title: "React",
-    icon: "frameworks/react",
-    url: "https://reactjs.org/",
-  },
-  {
-    title: "Preact",
+    title: "Pong",
     icon: "frameworks/preact",
-    url: "https://preactjs.com/",
+    url: "#",
   },
   {
-    title: "Svelte",
+    title: "Pro-Pong",
+    icon: "frameworks/react",
+    url: "#",
+  },
+  {
+    title: "Snake",
     icon: "frameworks/svelte",
-    url: "https://svelte.dev/",
+    url: "#",
   },
   {
-    title: "Vue",
-    icon: "frameworks/vue",
-    url: "https://vuejs.org/",
-  },
-  {
-    title: "Solid",
-    icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
-  },
-  {
-    title: "Lit",
+    title: "Jump",
     icon: "frameworks/lit",
-    url: "https://lit.dev/",
+    url: "#",
   },
 ];
 
 const platforms: Array<CompatibilityItem> = [
   {
-    title: "Netlify",
+    title: "Record",
     icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
+    url: "#",
   },
   {
-    title: "Vercel",
+    title: "Shane",
     icon: "platforms/vercel",
-    url: "https://vercel.com/",
+    url: "#",
   },
   {
-    title: "Cloudflare",
-    icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
-  },
-  {
-    title: "Render",
+    title: "Final",
     icon: "platforms/render",
-    url: "https://render.com/",
+    url: "#",
   },
   {
-    title: "GitHub",
-    icon: "fa-brands:github",
-    url: "https://pages.github.com/",
-  },
-  {
-    title: "GitLab",
+    title: "Diamond",
     icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
+    url: "#",
   },
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Juegos" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Estos son algunos de los <span class="text-primary">juegos</span> en los que{" "}
+    estamos <span class="text-primary">trabajando</span> arduamente para el 
+    lanzamiento <span class="text-primary">oficial</span>.
   </Fragment>
   <CompatibilityList
     items={frameworks}
-    title="Frameworks"
+    title="Terminados"
     url="https://docs.astro.build/core-concepts/framework-components/"
   />
   <CompatibilityList
     items={platforms}
-    title="Platforms"
+    title="Desarrollo"
     url="https://docs.astro.build/guides/deploy/"
   />
 </ContentSection>

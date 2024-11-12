@@ -4,9 +4,9 @@ import ThemeSwitcher from "~/components/theme-switcher.astro";
 import type { NavItem } from "~/types";
 
 const navItems: Array<NavItem> = [
-  { title: "Features", url: "#features" },
-  { title: "Compatibility", url: "#compatibility" },
-  { title: "Showcase", url: "#showcase" },
+  { title: "Marketing", url: "#features" },
+  { title: "Juegos", url: "#compatibility" },
+  { title: "En Progreso", url: "#showcase" },
 ];
 ---
 
@@ -15,9 +15,9 @@ const navItems: Array<NavItem> = [
   class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
 >
   <a class="flex items-center gap-3 hover:!text-default" href="#">
-    <h1 class="sr-only">Astro</h1>
-    <Icon name="logomark" class="size-10" />
-    <Icon name="wordmark" class="hidden h-4 sm:block" />
+    <h1 class="sr-only">TickTap</h1>
+    <img src="/img/icoticktap_white.png" alt="Logo de Ticktap" class="size-10" />
+    <img src="/img/namemark_white.png" alt="Logo de Ticktap" class="hidden h-6 sm:block" />
   </a>
   <div>
     <div class="flex items-center gap-6">
@@ -58,7 +58,7 @@ const navItems: Array<NavItem> = [
             </button>
           </header>
           <div class="flex justify-center">
-            <Icon name="logomark" class="size-16" />
+            <img src="/img/icoticktap.png" alt="Logo de Ticktap" class="size-16" />
           </div>
           <nav>
             <ul class="flex flex-col">
