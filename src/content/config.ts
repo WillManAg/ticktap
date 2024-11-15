@@ -6,7 +6,9 @@ const showcase = defineCollection({
     z.object({
       title: z.string().min(1),
       image: image(),
-      url: z.string().url(),
+      url: z.string().regex(/^\/|https?:\/\//, {
+        message: "Debe ser una ruta interna que comience con '/' o una URL válida.",
+      }),
       featured: z.number().min(1).optional(),
     }),
 });
