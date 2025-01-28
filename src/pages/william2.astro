@@ -1,0 +1,258 @@
+---
+import "@fontsource-variable/inter";
+import Footer from "~/components/footer.astro";
+import Header from "~/components/header22.astro";
+import Splash from "~/components/splash22.astro";
+import "~/styles/index.css";
+import "~/styles/william.css";
+---
+<!doctype html>
+<html lang="es" class="h-full motion-safe:scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>TickTap Games - Proyecto</title>
+  </head>
+  <body>
+    <Header />
+    <Splash />
+    <main class="container">
+      <section class="card">
+        <h2>Analisis de Costes (Fijos y Variables)</h2>
+        <p class="summary">En los 6 primeros meses de desarrollo, la empresa no tendrá trabajadores más que los 4 que trabajaremos en conjunto como desarrolladores de software para crear los 3 juegos que tenemos planeados para el lanzamiento.</p>
+        <p class="summary">Cada uno asumirá sus gastos personales durante el primer año de desarrollo/lanzamiento. No estaremos dados de alta como autónomos pues seremos una Sociedad Limitada, proceso que ejecutará en esos primeros meses previos al día D.</p>
+        <p class="summary">Gran parte del trabajo de desarrollo se hará de forma remota pero con visión de conocer a más personas de la industria tecnológica y poder concentrarnos a su vez en el correcto desarrollo de la empresa, alquilaremos una oficina de coworking.</p>
+        <p class="summary">Cada socio aportará un porcentaje del capital inicial de los ahorros propios en este proyecto el cuál no será muy alto por lo cuál tendremos que limitar los gastos lo máximo posible.</p>
+      
+        <h2>Fijos</h2>
+        <table>
+            <tr>
+                <th>Descripción</th>
+                <th>Costo</th>
+            </tr>
+            <tr>
+                <td>Alquiler coworking</td>
+                <td>150€/persona/mes x 4 = 600€/mes (7.200€ año)</td>
+            </tr>
+            <tr>
+                <td>Licencias de software Unity PRO</td>
+                <td>400€/persona/año x 4 = 1.600€</td>
+            </tr>
+            <tr>
+                <td>Licencias de software Adobe Creative</td>
+                <td>360€/persona/año x 4 = 1.440€</td>
+            </tr>
+            <tr>
+                <td>Almacenamiento en la nube</td>
+                <td>200€/mes (2.400€ año)</td>
+            </tr>
+            <tr>
+                <td>Dominio web y hosting</td>
+                <td>100€ al año</td>
+            </tr>
+            <tr>
+                <td>Gestoría externa (Cuentas)</td>
+                <td>100€/mes (1.200€ año)</td>
+            </tr>
+            <tr>
+                <td>Marketing anual</td>
+                <td>3.000€</td>
+            </tr>
+            <tr>
+                <td>Publicación de apps (Google Play y App Store)</td>
+                <td>200€/juego x 3 = 600€</td>
+            </tr>
+        </table>
+        <h2>Variables</h2>
+        <table>
+            <tr>
+                <th>Descripción</th>
+                <th>Costo</th>
+            </tr>
+            <tr>
+                <td>Comisiones de venta (App Store y Google Play)</td>
+                <td>15% - 30% según plataforma</td>
+            </tr>
+        </table>
+        <p><strong>Gastos totales mensuales fijos</strong></p>
+    <p>7.200€ (coworking) + 1.600€ (Unity) + 1.440€ (Adobe) + 2.400€ (nube) + 1.200€ (gestoría) + 100€ (dominio web) + 3.000€ (marketing base) ÷ 12 = 1.683€/mes aprox.</p>
+    </section>
+    <section class="card">
+    <h2>Plan de inversiones</h2>
+    <p>Trabajar en una oficina de alquiler de coworking nos ahorra muchos gastos en cuanto al espacio y muebles, pero igual tenemos que hacer unas inversiones para tener equipos exclusivos y preparados para desarrollar los juegos.</p>
+
+    <p><strong>Balance inicial</strong></p>
+    <table>
+        <tr>
+            <th>Activos</th>
+            <th>Costo</th>
+        </tr>
+        <tr>
+            <td>4 Ordenadores portátiles</td>
+            <td>1.500€ x 4 = 6.000€</td>
+        </tr>
+        <tr>
+            <td>3 Relojes inteligentes para pruebas</td>
+            <td>450€</td>
+        </tr>
+        <tr>
+            <td>Licencias iniciales de software (Unity y Adobe)</td>
+            <td>3.040€</td>
+        </tr>
+        <tr>
+            <td>Marketing pre-lanzamiento</td>
+            <td>3.000€</td>
+        </tr>
+        <tr>
+            <td>Almacenamiento en la nube</td>
+            <td>200€ (primer mes)</td>
+        </tr>
+        <tr>
+            <td>Dominio y hosting web</td>
+            <td>100€</td>
+        </tr>
+        <tr>
+            <td>Registro de la empresa</td>
+            <td>1.000€</td>
+        </tr>
+        <tr>
+            <td>Material de oficina</td>
+            <td>300€</td>
+        </tr>
+        <tr>
+            <td><strong>Total de la inversión inicial estimada</strong></td>
+            <td><strong>11.240€</strong></td>
+        </tr>
+    </table>
+
+    <p><strong>Pasivo</strong></p>
+    <p>No incluimos una deuda inicial porque cada socio aporta un dinero ahorrado, no se endeuda para empezar y también contamos con llegar a las metas del crowdfunding.</p>
+    </section>
+
+    <section class="card">
+    <h2>Plan de financiación</h2>
+    <p><strong>Inversión inicial de socios:</strong> Cada socio aportará 5.000€, esto hace un total de 20.000€ para empezar y cubrir todos los gastos.</p>
+    <p><strong>Crowdfunding:</strong> Meta de recaudación de 10.000€ a través de recompensas en una página especializada.</p>
+    <p><strong>Total fondos iniciales disponibles:</strong> 20.000€ + 10.000€ (en 6 meses) = 30.000€</p>
+    <p><strong>Excedente de la inversión inicial:</strong> Quedarían 18.760€ para cubrir los costes operativos de los primeros 6 meses previos al lanzamiento.</p>
+    </section>
+
+    <section class="card">  
+    <h2>Punto Muerto (Umbral de rentabilidad)</h2>
+    <p>Costes fijos mensuales: 1.683€</p>
+    <p>Precio de la venta promedio: 2€</p>
+    <p>Coste variable (comisión de App Store y Google):</p>
+
+    <table>
+        <tr>
+            <td>App Store (30%)</td>
+            <td>2€ x 0.30 = 0.60€</td>
+        </tr>
+        <tr>
+            <td>Google Play (15%)</td>
+            <td>2€ x 0.15 = 0.30€</td>
+        </tr>
+        <tr>
+            <td>Promedio ponderado</td>
+            <td>(0.60€ x 30%) + (0.30€ x 70%) = 0,39€ de coste por unidad</td>
+        </tr>
+    </table>
+
+    <p><strong>Margen de contribución por compra</strong></p>
+    <p>2€ del coste de la compra - 0.39€ de coste de comisión = 1,61€ de ganancia bruta</p>
+
+    <p><strong>Umbral de rentabilidad mensual</strong></p>
+    <p>Teniendo unos costes mensuales fijos de 1.683€ y una ganancia bruta de 1.61€ por compra.</p>
+    <p>1.683€ / 1.61€ = 1.045 micropagos/mes</p>
+    </section>
+
+    <section class="card">
+        <h2>Cálculo del fondo de Maniobra Inicial</h2>
+        <p>Gracias a que empezamos sin deudas y con ahorros propios, que el capital inicial es superior a los gastos iniciales en caso de completar con éxito la meta del crowfunding y que hemos recortado en muchos gastos para el primer año. No hay un déficit real porque todo está calculado para empezar cubriendo gastos.</p>
+
+        <p><strong>Activo corriente</strong></p>
+        <p>Excedente de la inversión: 18.760€</p>
+
+        <p><strong>Pasivo corriente</strong></p>
+        <p>No tenemos deuda inicial.</p>
+
+        <p><strong>Fondo de Maniobra</strong></p>
+        <p>18.760€ - 0€ = 18.760€</p>
+
+        <p>Con este fondo de maniobra en positivo, tendremos la capacidad de solventar todas nuestras obligaciones a corto plazo.</p>
+    </section>
+
+    <section class="card">
+        <h2>Análisis de Ingresos</h2>
+        <p><strong>Ingresos brutos esperados</strong></p>
+        <p>La empresa no generará beneficios durante los 6 meses de desarrollo.</p>
+        <p>Durante los 6 primeros meses después del lanzamiento de los 3 primeros juegos, tenemos una esperanza de 10.000 descargas al mes del app</p>
+        <p>Suponiendo que el 10% de los usuarios que descarguen el juego, gasten un promedio de 2€, esto daría un aproximado de 2.000€ al mes.</p>
+        <p>Sumarían un total de 12.000€ en los 6 meses, pero como la aplicación funciona a través de google play y appstore hay que restar a esas ventas un % que se queda google y apple. Vamos a hacer un supuesto según el mercado de los micropagos en el que un juego el 70% de sus ventas son en Android y un 30% de sus ventas son en iOS.</p>
+        <p>Cada store te cobra un porcentaje diferente, iOS cobra un 30% de la ganancia de la aplicación mientras que Android cobra solo un 15% de la ganancia.</p>
+        <p>Si el 30% de las ventas se realiza en iOS, esto dejaría:</p>
+
+        <table>
+            <tr>
+                <td>Ventas</td>
+                <td>12.000€ x 0.30 = 3.600€ brutos</td>
+            </tr>
+            <tr>
+                <td>Comisión de App Store (30%)</td>
+                <td>3600€ x 0.30% = 1.080€</td>
+            </tr>
+            <tr>
+                <td>Venta neto</td>
+                <td>3.600€ - 1.080€ = 2.560€</td>
+            </tr>
+        </table>
+
+        <p>Si el 70% de las ventas se realiza en Android, esto dejaría</p>
+
+        <table>
+            <tr>
+                <td>Ventas</td>
+                <td>12.000 x 0.70 = 8400€</td>
+            </tr>
+            <tr>
+                <td>Comisión de Google Play (15%)</td>
+                <td>8.400€ x 0.15% = 1.260€</td>
+            </tr>
+            <tr>
+                <td>Venta neto</td>
+                <td>8.400€ - 1.260€ = 7140€</td>
+            </tr>
+        </table>
+
+        <p>Ganancia total por micropagos: 2.520€ + 7.140€ = <strong>9660€</strong></p>
+        <p>Más los 10.000€ del crowfunding adquiridos en los primeros 6 meses del desarrollo.</p>
+        <p>Un total de <strong>19.660€</strong> brutos el primer año.</p>
+
+        <p><strong>Gastos e impuestos</strong></p>
+        <p>Como hemos decidido fundar una Sociedad Limitada en vez de ser autónomos por cuenta propia, nosotros tenemos que pagar el Impuesto de Sociedad del 25% de los ingresos de la empresa.</p>
+        <p>19.660€ x 0.25 = 4915€ de gastos</p>
+
+        <p><strong>Beneficio neto estimado (el primer año):</strong></p>
+        <table>
+            <tr>
+                <td>Ingresos brutos</td>
+                <td>19.660€</td>
+            </tr>
+            <tr>
+                <td>Impuesto de Sociedad</td>
+                <td>4915€</td>
+            </tr>
+            <tr>
+                <td>Gastos fijos</td>
+                <td>10.098€ (6 meses x 1.683€)</td>
+            </tr>
+        </table>
+
+        <p>Beneficio neto total:  <strong>4.647€ </strong></p>
+    </section>
+
+    </main>
+    <Footer />
+  </body>
+</html>
